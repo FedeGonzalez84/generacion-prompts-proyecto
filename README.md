@@ -1,16 +1,17 @@
-# Proyecto final Generación de Prompts - (CoderHouse)
+# Introducción
+## Proyecto final Generación de Prompts - (CoderHouse)
 
-## Titulo del proyecto
+### Titulo del proyecto
 
 Generación de playlist con contenido educativo en Spotify utilizando a OpenAI como sistema de recomendación.
 
-## Presentación de la idea
+### Presentación de la idea
 
 La idea de este proyecto surge de la necesidad de proporcionar a los niños un acceso fácil y divertido a contenido educativo a través de plataformas de streaming de música como Spotify.
 
 Muchos padres y educadores enfrentan el desafío de encontrar contenido adecuado y educativo para los niños, y esta iniciativa busca abordar esta necesidad utilizando tecnologías de inteligencia artificial.
 
-## Propuesta de la solución
+### Propuesta de la solución
 **Selección de contenido educativo:** Utilizare OpenAI, específicamente gpt, para sugerir una lista de canciones infantiles con propósitos educativos específicos, cómo aprender el abecedario, los colores, números, entre otros.
 
 **Comunicación con la API de Spotify:** Una vez que tengamos la lista de canciones sugeridas, nos comunicaremos con la API de Spotify para crear una nueva playlist y agregar estas canciones a ella.
@@ -18,7 +19,7 @@ Muchos padres y educadores enfrentan el desafío de encontrar contenido adecuado
 **Generación de un logo para la playlist**: Utilizare DALL-E, una red neuronal generativa desarrollada por OpenAI, para crear un logo único y atractivo para la playlist. 
 Este logo será diseñado teniendo en cuenta el tema educativo de la playlist y se generará automáticamente.
 
-#### Prompts a utilizar:
+##### Prompts a utilizar:
 
 **Obtener lista de canciones**
 - **system:** `Vas a asumir el rol de experto en educación para niños con vastos conocimientos en contenido educativo y multimedial.`
@@ -37,7 +38,7 @@ En este caso, el ejemplo de user, esta utilizando al técnica **one shoot prompt
 - **prompt:**  `Necesito que generes una ilustración para niños, donde se muestre en el centro de la imagen a un niño escuchando música con sus auriculares, lleno de lápices y libros y alrededor de su imagen, que muestre la temática de lo
 que está escuchando, en este caso, el aprendizaje del **(tema a tratar)**. Utiliza colores cálidos e ilustraciones amigables para niños.`
 
-## Viabilidad del proyecto:
+### Viabilidad del proyecto:
 El proyecto es viable técnicamente, ya que se posee conocimientos sobre las herramientas a utilizar, las cuales son:
 
 - Generación de texto a texto (gpt-3.5 o gpt-4.0)
@@ -49,4 +50,10 @@ En cuanto a la viabilidad económica:
 - La cantidad de tokens que deberán utilizarse aproximadamente para el modelo texto - texto es de 225 tokens y sabiendo que los precios son aproximadamente $0.50 / 1M tokens (gpt-3.5) no se incurre en grandes costos.
 - En cuanto al modelo de generación texto - imagen, el costo por imagen de 1024x1024 es de $0.020, lo cual no sería un costo elevado de asumir.
 - La utilización de la API de Spotify para uso personal es gratuita.
+  
+# Objetivos
+El proyecto tiene como objetivo principal proporcionar acceso a contenido educativo a través de plataformas de streaming como Spotify, utilizando tecnologías de inteligencia artificial como GPT de OpenAI y DALL-E. Además, busca aprender el contenido de armado de prompts del curso, abordando así la necesidad de ofrecer a los niños un acceso fácil y divertido a contenido educativo y aplicando herramientas avanzadas para su creación y personalización.
+# Metodología
+
+# Herramientas y tecnologías
 
