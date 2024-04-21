@@ -55,11 +55,11 @@ En cuanto a la viabilidad económica:
 El proyecto tiene como objetivo principal proporcionar acceso a contenido educativo a través de plataformas de streaming como Spotify, utilizando tecnologías de inteligencia artificial como GPT de OpenAI y DALL-E. Además, busca aprender el contenido de armado de prompts del curso, abordando así la necesidad de ofrecer a los niños un acceso fácil y divertido a contenido educativo y aplicando herramientas avanzadas para su creación y personalización.
 # Metodología
 El proyecto se divide en 3 etapas:
-- _Generación de la listas de canciones utilizando la creación de prompts mediante la técnica one shoot promtpts, debido a que debe devolver un formato exacto de respuesta, en este caso un JSON para poder utilizarlo en la libreria de spotify_
+- _Generación de la listas de canciones utilizando la creación de prompts mediante la técnica one shoot prompts, debido a que debe devolver un formato exacto de respuesta, en este caso un JSON para poder utilizarlo en la libreria de spotify_
 - _Generación de la imagen utilizando Dall-E el cual será la caratula de la imagen de la playlist_
 - _Generación de la playlist utilizando la API de spotify mediante una busqueda exhaustiva de la lista arrojada por la IA_
 
 El ingreso de la información sera utilizando la consola interactiva de python.
 # Herramientas y tecnologías
-Se van a emplear técnicas de one shoot prompt para la generación de la lista de canciones debido a que la respuesta que se necesita de chatgpt debe tener un formato acorde a lo que la API de Spotify requiere.
-La técnica de generación de prompts a utilizar para dall-e será zero shoot prompt debido a que se necesita que la IA generalice dependiendo la descripción detallada que se le proporciona.
+Se van a emplear técnicas de **one shoot prompt** para la generación de la lista de canciones debido a que la respuesta que se necesita de chatgpt debe tener un formato acorde a lo que la API de Spotify requiere.
+La técnica de generación de prompts a utilizar para dall-e será **zero shoot prompt** debido a que se necesita que la IA generalice dependiendo la descripción detallada que se le proporciona.
