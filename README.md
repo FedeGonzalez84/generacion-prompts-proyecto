@@ -33,3 +33,20 @@ Este logo será diseñado teniendo en cuenta el tema educativo de la playlist y 
   ]
 En este caso, el ejemplo de user, esta utilizando al técnica **one shoot prompt**
 
+**Generar imagen de la playlist**
+- **prompt:**  `Necesito que generes una ilustración para niños, donde se muestre en el centro de la imagen a un niño escuchando música con sus auriculares, lleno de lápices y libros y alrededor de su imagen, que muestre la temática de lo
+que está escuchando, en este caso, el aprendizaje del **(tema a tratar)**. Utiliza colores cálidos e ilustraciones amigables para niños.`
+
+## Viabilidad del proyecto:
+El proyecto es viable técnicamente, ya que se posee conocimientos sobre las herramientas a utilizar, las cuales son:
+
+- Generación de texto a texto (gpt-3.5 o gpt-4.0)
+- Generación de texto a imagen (dall-e)
+- Utilización de la API de Spotify para buscar contenido y armar la playlist. [Documentación de la API de Spotify](https://developer.spotify.com/documentation/web-api)
+
+En cuanto a la viabilidad económica:
+
+- La cantidad de tokens que deberán utilizarse aproximadamente para el modelo texto - texto es de 225 tokens y sabiendo que los precios son aproximadamente $0.50 / 1M tokens (gpt-3.5) no se incurre en grandes costos.
+- En cuanto al modelo de generación texto - imagen, el costo por imagen de 1024x1024 es de $0.020, lo cual no sería un costo elevado de asumir.
+- La utilización de la API de Spotify para uso personal es gratuita.
+
