@@ -19,8 +19,17 @@ Muchos padres y educadores enfrentan el desafío de encontrar contenido adecuado
 Este logo será diseñado teniendo en cuenta el tema educativo de la playlist y se generará automáticamente.
 
 #### Prompts a utilizar:
-**Obtener lista de canciones**
-- **system:** _Vas a asumir el rol de experto en educación para niños con vastos conocimientos en contenido educativo y multimedial._
-- **user:** Necesito que me proporciones un top 10 de canciones en Spotify para niños entre 1 y 5 años (rango de edad) que faciliten el aprendizaje del abecedario (temática a aprender). Este contenido debe encontrarse en español y necesito que me lo muestres en forma tabulada, donde la primera columna muestre el nombre de la canción y como segunda columna quién es el autor de dicho tema. Enfócate principalmente en que la canción contenga la temática que se quiere enseñar al niño.
 
+**Obtener lista de canciones**
+- **system:** `Vas a asumir el rol de experto en educación para niños con vastos conocimientos en contenido educativo y multimedial.`
+  
+- **user:** `Eres un asistente útil para generar listas de reproducción. Deberías generar una lista de canciones y sus artistas según la indicación que se solicita. Debes ser claro, exacto y basarte en la información que contengas almacenada. Deberás devolver un array JSON, donde cada elemento sigue este formato:`
+  ```json
+  [
+    {
+      "song": "<song_title>",
+      "artist": "<artist_name>"
+    }
+  ]
+En este caso, el ejemplo de user, esta utilizando al técnica **one shoot prompt**
 
