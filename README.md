@@ -18,3 +18,9 @@ Muchos padres y educadores enfrentan el desafío de encontrar contenido adecuado
 **Generación de un logo para la playlist**: Utilizare DALL-E, una red neuronal generativa desarrollada por OpenAI, para crear un logo único y atractivo para la playlist. 
 Este logo será diseñado teniendo en cuenta el tema educativo de la playlist y se generará automáticamente.
 
+#### Prompts a utilizar:
+**Obtener lista de canciones**
+- **system:** _Vas a asumir el rol de experto en educación para niños con vastos conocimientos en contenido educativo y multimedial._
+- **user:** Necesito que me proporciones un top 10 de canciones en Spotify para niños entre 1 y 5 años (rango de edad) que faciliten el aprendizaje del abecedario (temática a aprender). Este contenido debe encontrarse en español y necesito que me lo muestres en forma tabulada, donde la primera columna muestre el nombre de la canción y como segunda columna quién es el autor de dicho tema. Enfócate principalmente en que la canción contenga la temática que se quiere enseñar al niño.
+
+
